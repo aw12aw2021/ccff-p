@@ -1,11 +1,15 @@
 {
-  "name": "vless-proxy",
+  "name": "vl",
   "version": "1.0.0",
-  "description": "Minimal VLESS TCP proxy based on Node.js 22",
+  "description": "Minimal Node.js 22",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build": "echo \"Skipping build step (Node.js project)\"",
     "start": "node index.js"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "engines": {
+    "node": ">=22"
+  }
 }
